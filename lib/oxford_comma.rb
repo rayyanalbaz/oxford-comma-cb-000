@@ -15,7 +15,9 @@ if array.size == 3 then
   output << array.join(", ")
   s = output.split(" ")
    last = "#{s.last}"
-   s.last = "and #{last}"
+   le = "and #{last}"
+   s.pop
+   s << le 
   output << s.join
   return output
 end
