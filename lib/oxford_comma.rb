@@ -12,8 +12,8 @@ else
 
   output =  ""
   e = ""
-  output << array.join(",  ")
-  s = output.split(" ")
+  output << array.join(",,  ")
+  s = output.split(",")
    last = "#{s.last}"
    le = "and #{last}"
    s.pop
