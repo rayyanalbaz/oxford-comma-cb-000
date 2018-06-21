@@ -10,4 +10,9 @@ if array.size == 2 then
   return output
 end
 
+if array.size == 3 then
+  output =  ""
+  output << array.join(", ")
+end
+
 end
