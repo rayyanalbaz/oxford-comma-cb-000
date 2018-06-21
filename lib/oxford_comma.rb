@@ -17,7 +17,7 @@ if array.size == 3 then
    last = "#{s.last}"
    le = "and #{last}"
    s.pop
-   s << le 
+   s << le
   output << s.join
   return output
 end
