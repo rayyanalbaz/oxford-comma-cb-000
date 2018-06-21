@@ -15,7 +15,7 @@ else
   output << array.join(", ")
   s = output.split(",")
    last = "#{s.last}"
-   le = " and #{last}"
+   le = " and#{last}"
    s.pop
    s << le
   e << s.join(",")
