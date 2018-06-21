@@ -8,9 +8,8 @@ end
 if array.size == 2 then
   output =  array.join(" and ")
   return output
-end
+else
 
-if array.size == 3 then
   output =  ""
   e = ""
   output << array.join(", ")
