@@ -13,6 +13,9 @@ end
 if array.size == 3 then
   output =  ""
   output << array.join(", ")
+  s = output.split(" ")
+  s.last = "and " + last 
+  output << array.join
   return output
 end
 
