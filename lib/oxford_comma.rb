@@ -12,14 +12,15 @@ end
 
 if array.size == 3 then
   output =  ""
+  e = ""
   output << array.join(", ")
   s = output.split(" ")
    last = "#{s.last}"
    le = "and #{last}"
    s.pop
    s << le
-  output << s.join
-  return output
+  e << s.join
+  return e
 end
 
 end
