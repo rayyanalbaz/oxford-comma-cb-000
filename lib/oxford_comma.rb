@@ -19,7 +19,7 @@ if array.size == 3 then
    le = "and #{last}"
    s.pop
    s << le
-  e << s.join
+  e << s.join(" ")
   return e
 end
 
